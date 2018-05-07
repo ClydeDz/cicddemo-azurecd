@@ -10,7 +10,6 @@ namespace WebDemoAzureCD.Controllers
     {
         public ActionResult Index()
         {
-            throw Exception(); // demo failed-build check-in
             return View();
         }
 
